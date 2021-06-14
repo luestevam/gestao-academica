@@ -35,9 +35,9 @@
                         </div>
                         <div class="ml-1 d-flex align-items-center">
                             <div>
-                                {{ auth()->user()->pessoa()->nome ?? 'Anônimo' }}<br>
+                                {{-- auth()->user()->pessoa()->nome ?? 'Anônimo' --}}<br>
                                 <small class="text-muted">
-                                    {{ auth()->user()->pessoa()->tipoPerfil()->nome_perfil ?? 'Não Informado' }}
+                                    {{-- auth()->user()->pessoa()->tipoPerfil()->nome_perfil ?? 'Não Informado' --}}
                                 </small>
                             </div>
                         </div>
